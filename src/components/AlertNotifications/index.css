@@ -3,4 +3,52 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  padding: 30px;
+}
+
+.icon-img {
+  height: 25px;
+  width: 25px;
+}
+
+.success-icon {
+  color: #2dca73;
+}
+.error-icon {
+  color: #ff0b37;
+}
+.warning-icon {
+  color: #ffb800;
+}
+.info-icon {
+  color: #0f81e0;
+}
+
+.notification-title {
+  font-family: 'Roboto';
+  font-weight: 500;
+  font-size: 20px;
+  margin: 0px;
+}
+
+.success-title {
+  color: #2dca73;
+  margin: 0px;
+}
+.error-title {
+  color: #ff0b37;
+}
+.warning-title {
+  color: #ffb800;
+}
+.info-title {
+  color: #0f81e0;
+}
+
+.notification-description {
+  font-family: 'Roboto';
+  font-weight: 500;
+  font-size: 14px;
+  margin: 0px;
+  color: #64748b;
 }
